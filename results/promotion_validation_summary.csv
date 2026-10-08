@@ -1,0 +1,4 @@
+policy,mean_reward,std_reward,mean_satisfaction,mean_vcpu,mean_overload_rate
+Champion-v1,48.0876,2.5891,0.8247,1.0389,0.3259
+Candidate-v2,54.5007,0.1276,0.8524,1.4870,0.0815
+

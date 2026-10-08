@@ -1,0 +1,8 @@
+scenario_key,simulated_time,samples,cpu_mean_pct,cpu_std_pct,cpu_max_pct,offered_mean_mbps,delivered_mean_mbps,delivery_ratio_mean,latency_mean_ms,latency_median_ms,latency_max_ms,latency_timeouts,loss_mean_pct
+baseline,Morning,60,5.4269,2.3145,13.8122,5.0,5.1538,0.9987,14.0470,12.1115,40.625,0,0.0000
+baseline,Afternoon,60,9.6511,2.4219,20.0000,30.0,30.8762,1.0000,12.2823,10.7605,29.414,0,0.0000
+baseline,Night,60,4.9974,1.4126,10.2941,8.0,8.2368,0.9992,15.4981,12.9705,97.214,0,0.0000
+rural,Morning,60,5.4483,2.1164,13.0058,5.0,5.0516,0.9906,116.6228,114.2595,150.706,0,1.6667
+rural,Afternoon,60,9.3744,2.4714,20.0000,30.0,17.6839,0.5895,790.2625,780.3940,964.204,13,58.3333
+rural,Night,60,5.9026,2.7554,19.0616,8.0,8.0796,0.9915,121.6826,119.6980,157.048,0,4.4444
+

@@ -1,0 +1,5 @@
+policy,mean_reward,std_reward,mean_satisfaction,mean_vcpu,mean_overload_rate
+Deployed-v2,54.4176,0.2465,0.8536,1.7130,0.0278
+Fixed-vCPU-2,53.7076,0.0000,0.8536,2.0000,0.0278
+CPU-rule,55.8129,0.1660,0.8538,1.3389,0.0259
+

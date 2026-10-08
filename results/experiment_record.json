@@ -1,0 +1,20 @@
+{
+  "experiment": "Self-Evolving Reinforcement Learning for ANDM-Inspired SDN",
+  "training_seeds": [7, 17, 29, 42, 61, 73, 89, 101, 127, 149],
+  "evaluation_seeds": [501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515],
+  "train_timesteps_per_seed": 15000,
+  "adaptation_timesteps": 12000,
+  "selected_algorithm": "DQN",
+  "selected_seed": 42,
+  "selection_difference": 2.7084,
+  "selection_bootstrap_interval": [0.0330, 5.1045],
+  "adwin_delta": 0.2,
+  "drift_events": [83, 127],
+  "first_drift_index": 83,
+  "candidate_promoted": true,
+  "deployed_version": "v2",
+  "latency_timeout_rule": "NaN is preserved in measured latency; 1000 ms is used only in model features.",
+  "vcpu_boundary": "vCPU actions are simulated and are not physical CPU hot-plugging.",
+  "evidence_boundary": "Measured ONOS-Mininet testbed inspired by ANDM; not operational ANDM telemetry.",
+  "network_boundary": "The measured rural bottleneck cannot be fixed by adding simulated vCPUs alone."
+}
